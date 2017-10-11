@@ -1,0 +1,41 @@
+{
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true,
+    "useTranspileModule": true,
+    "doTypeCheck": true,
+    "forkChecker": true
+  },
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "lib": [
+      "es2015",
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "**/*.d.ts",
+    "aot",
+    "aot/**/*",
+    "**/aot/*",
+    "node_modules",
+    "node_modules/**/*",
+    "**/node_modules",
+    "node_modules/@typings/**/*",
+    "typings",
+    "typings/browser",
+    "typings/main",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}

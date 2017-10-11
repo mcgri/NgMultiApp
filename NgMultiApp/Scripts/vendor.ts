@@ -1,0 +1,15 @@
+﻿import '@angular/platform-browser';
+import '@angular/platform-browser-dynamic';
+import '@angular/core';
+import '@angular/common';
+import '@angular/http';
+import '@angular/router';
+import 'calendar-utils';
+import '@angular/material';
+import '@angular/animations';
+import 'ng2-ckeditor'
+// RxJS
+import 'rxjs';
+import "lodash";
+import "chart.js";
+import "date-fns";
