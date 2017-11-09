@@ -1,15 +1,12 @@
-﻿import '@angular/platform-browser';
-import '@angular/platform-browser-dynamic';
-import '@angular/core';
-import '@angular/common';
-import '@angular/http';
-import '@angular/router';
-import 'calendar-utils';
-import '@angular/material';
-import '@angular/animations';
-import 'ng2-ckeditor'
+import 'ng2-ckeditor';
 // RxJS
-import 'rxjs';
-import "lodash";
+import {Observable}     from 'rxjs/Observable';
+import { Observer } from 'rxjs/Observer';
+import {BehaviorSubject} from 'rxjs/BehaviorSubject';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/observable/forkJoin';
+
+import "signalr";
+
 import "chart.js";
 import "date-fns";
